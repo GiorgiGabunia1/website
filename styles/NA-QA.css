@@ -160,6 +160,7 @@ h2 {
 .about-container > div > div:last-child > div:first-child > span{
     font-size: 90px;
     color: #FFB342;
+    font-weight: 800;
 }
 .about-container > div > div:last-child > ul:last-child > div{
     display: flex;
