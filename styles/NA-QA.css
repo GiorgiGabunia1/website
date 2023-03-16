@@ -2,6 +2,7 @@
 body{
     font-family: 'inter';
     margin: 0;
+    font-size: 18px;
 }
 h1{
     color: white;
@@ -14,6 +15,17 @@ h2 {
     font-size: 45px;
     font-weight: 800;
     font-family: mulish;
+}
+h3 {
+    font-size: 25px;
+    font-family: mulish;
+    font-weight: 700;
+    color: #FFB342;
+    line-height: 31px;
+    margin: 0;
+}
+p{
+    margin: 0;
 }
 /* ## Header And Main Navigation */
 
@@ -115,11 +127,12 @@ h2 {
 }
 .hero-container > div:last-child > div > div:first-child{
     display: flex;
+    align-items: center;
     color: white;
-    background-color: 
-    rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     font-size:18px;
     width: 500px;
+    padding: 12px 16px;;
 }
 .about-container{
     width: 1200px;
@@ -159,7 +172,7 @@ h2 {
 }
 .about-container > div > div:last-child > div:first-child > span{
     font-size: 90px;
-    color: #FFB342;
+    color: hsl(36, 100%, 63%);
     font-weight: 800;
 }
 .about-container > div > div:last-child > ul:last-child > div{
@@ -181,4 +194,54 @@ h2 {
 .services-container > div {
     margin: 127px 0 0 0;
     color:#1C2752;
+}
+.our_Services-container {
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1320px;
+
+}
+.our_Services-container > div:first-child {
+    width: 687px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.our_Services-container > div:first-child > div {
+    background-color: white;
+    color: #1C2752;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    font-weight: 500;
+    padding: 0 16px;
+
+}
+.our_Services-container > div:last-child {
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 37px;
+}
+.blue-container{
+    background-color: #1C2752;
+    font-size: 18px;
+    color: #D2D2D2;
+    display: flex;
+    flex-direction: column;
+    width: 308px;
+    height: 228px;
+    padding: 47px 37px 47px 36px;
+    gap: 10px;
+    
+}
+.blue-container > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
 }
