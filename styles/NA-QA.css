@@ -196,7 +196,16 @@ p{
     margin: 127px 0 0 0;
     color:#1C2752;
 }
+.services-container > div:first-child + div{
+    width: 723px;
+    display: flex;
+    justify-content: space-between;
+    margin: 32px auto 40px;
+}
 .services-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 221px;
     height: 65px;
     color: #1C2752;
@@ -204,6 +213,14 @@ p{
     font-size: 20px;
     background-color: #FFB342;
     border: 1px solid #1C2752;
+}
+.services-button:hover{
+    color: white;
+    background-color: #1C2752;
+}
+.services-button:active{
+    background-color: white;
+    color: #1C2752;
 }
 .our_Services-container {
     background-color: #F4F4F4;
